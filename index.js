@@ -169,7 +169,7 @@ function mileToKm(array) {
     const dist = item.distance.slice(0, -2); //* 1.60934;
     const newDist = (dist * 1.60934).toFixed() + "km";
     // console.log(newDist);
-    item.distance = newDist;
+    item.distance = newDistred;
   });
   console.log(array);
 }
